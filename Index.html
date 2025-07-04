@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Advice App</title>
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js"></script>
+</head>
+<body>
+    <form id="container">
+        <div id="inputs">
+            <h2>Career Advice</h2>
+            <label for="subjects">Subjects you're good at</label>
+            <select name="subjects" id="sub-select" required>
+                <option value="" disabled selected>--- Select ---</option>
+                <option>Mathematics and Science</option>
+                <option>Business Studies and Accounting</option>
+                <option>Humanities (History, Geography, Languages)</option>
+                <option>Visual Arts and Drama</option>
+            </select><br>
+            <button type="button" id="click_advice" onclick="btnPressed()">Get Advice</button>
+            <textarea id="message" rows="4"></textarea>
+        </div>
+
+    </form>
+    
+</body>
+</html>
